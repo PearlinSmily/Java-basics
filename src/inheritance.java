@@ -1,11 +1,11 @@
- class inheritance {
+ class inheritance {                                                     //super class
     String studname ="smily";
     int age =24;
     {
         System.out.println("---student details---");
     }
 }
-class details extends inheritance {
+class details extends inheritance {                                          //subclass
     int total = 545;
 
     public static void main(String[] args) {
