@@ -8,9 +8,11 @@ public class exception {
                                                      which terminate the program without executing the "finally" block.
                                                       so we throw it to the compiler*/
         }
-        catch (Exception E) {
+        catch (Exception E) {                       /*if we know the correct exception name (eg. ArithmeticException)
+                                                      then use the correct exception name otherwise simply use "Exception"*/
+
             System.out.println("a/b is 0");        /*but the catch section catch that exception and print some
-                                                      temporary sentence to avoid the program to get teminated abornamlly
+                                                      temporary sentence to avoid the program to get terminated abnormally
                                                        ie) without executing the "finally" block*/
         }
         finally{
