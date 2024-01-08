@@ -13,10 +13,10 @@ import java.util.*;
             return this.rollno + " " + this.name;
         }
     }
-    class Sortbyroll implements Comparator<Studen> {           //class 2    comparator interface
+    class Sortbyname implements Comparator<Studen> {           //class 2    comparator interface, sorting in our own way
         public int compare(Studen a, Studen b)                 //comparing
         {
-            return a.rollno - b.rollno;
+            return a.name.compareTo(b.name);
         }
     }
 public class comparator {
@@ -24,15 +24,15 @@ public class comparator {
         ArrayList<Studen> stud = new ArrayList<Studen>();
 
         stud.add(new Studen(001, "Smily"));
-        stud.add(new Studen(004, "Blessy"));
-        stud.add(new Studen(002, "Jerwin"));
-        stud.add(new Studen(003, "Ronald"));
+        stud.add(new Studen(002, "Blessy"));
+        stud.add(new Studen(003, "Jerwin"));
+        stud.add(new Studen(004, "Ronald"));
             System.out.println("Students List (Before Sorting):");
             for (Studen student : stud) {
                 System.out.println(student);
             }
-            Collections.sort(stud, new Sortbyroll());
-            System.out.println("\nStudents List (After Sorting by Roll Number):");
+            Collections.sort(stud, new Sortbyname());
+            System.out.println("\nStudents List (After Sorting by name):");
             for (Studen student : stud) {
                 System.out.println(student);
             }
