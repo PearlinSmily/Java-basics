@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
-public class ArrayLlst {
+public class Arraylist {
     public static void main(String[] args) {
         {
             ArrayList<Integer> numbers = new ArrayList<Integer>();           //array
