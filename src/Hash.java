@@ -8,7 +8,7 @@ public class Hash {
         cars.add("Ford");
         cars.add("BMW");
         cars.add("Mazda");
-        Iterator<String> a = cars.iterator();
+
         for (String i:cars)
         {
             System.out.println(i);

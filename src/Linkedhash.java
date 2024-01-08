@@ -8,7 +8,6 @@ import java.util.*;
             veg .add("potato");
             veg .add("onion");
             veg .add("beans");
-            Iterator<String> a = veg .iterator();
             for (String i:veg)
             {
                 System.out.println(i);
