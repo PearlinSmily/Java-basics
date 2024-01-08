@@ -8,7 +8,6 @@ import java.util.*;
             fruites.add("grapes");
             fruites.add("guva");
             fruites.add("pineapple");
-            Iterator<String> a = fruites.iterator();
             for (String i:fruites)
             {
                 System.out.println(i);
