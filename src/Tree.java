@@ -1,6 +1,6 @@
 
 import java.util.*;
-    public class tree {
+    public class Tree {
         public static void main(String[] args) {
             TreeSet<String> fruites = new TreeSet<String>();
             fruites.add("apple");
