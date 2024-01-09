@@ -1,27 +1,28 @@
 
-class Animal {
-    {
-        System.out.println("Sounds");                       //super class
-    }
-}
-
-    class Pig extends Animal {
-        {
-            System.out.println("The pig says: wee wee");    //subclass
+class Method {
+    void min(int a, int b) {
+        if (a < b) {
+            System.out.println(a);
+        } else {
+            System.out.println(b);
         }
     }
 
-    class Dog extends Animal {
-        {                                                   //subclass
-            System.out.println("The dog says: bow wow");
+    void min(int a, int b, int c) {
+        if (a < b) {
+            System.out.println(a);
+        } else if (b < c) {
+            System.out.println(b);
+        } else {
+            System.out.println(c);
         }
     }
 
-class pets {
-    public static void main(String[] args) {
-
-        Animal myPig = new Pig();
-        Animal myDog = new Dog();
-
+    class polymorphism {
+        public static void main(String[] args) {
+            Method obj1 = new Method();
+            obj1.min(2, 6);
+            obj1.min(7, 9, 2);
+        }
     }
 }
