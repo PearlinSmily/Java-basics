@@ -59,7 +59,7 @@ public class loops {
             }
             while (i < 15);
         }
-        //for loop
+            //for loop
         {
             System.out.println("---for loop---\t");
             for (int j = 20; j <= 30; j = j + 2) {

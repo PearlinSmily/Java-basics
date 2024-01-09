@@ -13,7 +13,7 @@ public class staticmethod {
             System.out.println(staticmethod.Sub);
             int a = 10;
             int b = 5;
-            int sum=staticmethod.add(a, b);
+           int sum= staticmethod.add(a, b);
             int difference = staticmethod.subtract(a, b);
             System.out.println("Sum: " + sum);
             System.out.println("Difference: " + difference);

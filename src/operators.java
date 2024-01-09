@@ -4,8 +4,6 @@ public class operators {
         System.out.println("\n1.Arithmetic operations\n");
         int x = 5;
         int y = 3;
-
-
         System.out.println(x + y);   // addition
         System.out.println(x - y);   // subtraction
         System.out.println(x * y);   // multiplication

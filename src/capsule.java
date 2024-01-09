@@ -1,27 +1,29 @@
 public class capsule {
 
-        public String name;
+        private String name;
         private int age;
-        public String emailid;
+        private String emailid;
 
-        public String getName() {
-            return name;
-        }
-        public void setName (String name){
-            this.name = name;
-        }
-        private int getAge ()
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+
+        this.name = name;
+    }
+        public int getAge ()                                                  //
         {
             return age;
         }
-        private void setAge ( int age)
+        public void setAge ( int age)
         {
             this.age = age;
         }
-        private String getEmailid () {
+        public String getEmailid () {
             return emailid;
         }
-        private void setEmailid (String emailid)
+        public void setEmailid (String emailid)
         {
             this.emailid = emailid;
         }
