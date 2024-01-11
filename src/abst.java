@@ -1,9 +1,6 @@
 abstract class ani                                   //abstract class
 {
     public abstract void cat ();                     //abstract method
-    {
-        System.out.println("cat");
-    }
 }
 class abst1 extends ani
 {

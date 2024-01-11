@@ -1,5 +1,14 @@
+public class Polymorphism
+{
+    public static void main(String[] args)
+    {
+        Func obj1 = new Func();
+        obj1.min(2, 6);
+        obj1.min(10, 9, 8);
+    }
 
-class Method {
+}
+class Func {
     void min(int a, int b) {
         if (a < b) {
             System.out.println(a);
@@ -8,21 +17,15 @@ class Method {
         }
     }
 
-    void min(int a, int b, int c) {
+    void min(int a, int b, int c)
+    {
         if (a < b) {
             System.out.println(a);
-        } else if (b < c) {
+        } else if (a < c) {
             System.out.println(b);
         } else {
             System.out.println(c);
         }
     }
-
-    class polymorphism {
-        public static void main(String[] args) {
-            Method obj1 = new Method();
-            obj1.min(2, 6);
-            obj1.min(7, 9, 2);
-        }
-    }
 }
+
